@@ -3,6 +3,7 @@ package com.br.marco.literalura.model;
 import jakarta.persistence.*;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Entity
 @Table(name = "livros")
