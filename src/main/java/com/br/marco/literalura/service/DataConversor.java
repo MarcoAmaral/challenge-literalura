@@ -1,5 +1,8 @@
 package com.br.marco.literalura.service;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 public class DataConversor implements IDataConversor {
 		ObjectMapper mapper = new ObjectMapper();
 
